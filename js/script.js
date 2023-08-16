@@ -91,7 +91,7 @@ withdrawBtn.addEventListener("click", function () {
     withdraw.innerText = withdrawInitial.toFixed(2);
     balanceInitial -= withdrawAmount;
     balance.innerText = balanceInitial.toFixed(2);
-    depositInput.value = " ";
+    withdrawInput.value = " ";
   }
 });
 withdrawInput.addEventListener("keyup", function (event) {
@@ -119,7 +119,7 @@ withdrawInput.addEventListener("keyup", function (event) {
       withdraw.innerText = withdrawInitial.toFixed(2);
       balanceInitial -= withdrawAmount;
       balance.innerText = balanceInitial.toFixed(2);
-      depositInput.value = " ";
+      withdrawInput.value = " ";
     }
   }
 });
