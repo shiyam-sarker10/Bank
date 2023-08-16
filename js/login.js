@@ -17,6 +17,6 @@ btn.addEventListener('click',function(){
         error2.style.display="none"
     }
     else{
-
+        location.href="bank.html"
     }
 })
