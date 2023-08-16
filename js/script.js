@@ -123,3 +123,6 @@ withdrawInput.addEventListener("keyup", function (event) {
     }
   }
 });
+logout.addEventListener('click', function(){
+  location.href="index.html"
+})

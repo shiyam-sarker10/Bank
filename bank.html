@@ -8,9 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-   <header class=" my-20 text-center container">
+   <header class=" my-20 text-center container mx-auto">
     <h1 class="text-4xl capitalize">withdraw some money from
         <span class=" rotate-45 text-5xl font-semibold text-indigo-300 ">Baap er Bank</span>
+        <button id="logout" class=" ml-24 text-xl bg-indigo-600 w-max px-4 py-2 rounded-br-lg rounded-tl-lg text-white font-semibold active:bg-indigo-400">Logout</button>
     </h1>
    </header>
    <main class="container mx-auto mb-24">
@@ -50,7 +51,7 @@
                 <p class=" hidden py-2 px-8 rounded-lg bg-fuchsia-200 text-fuchsia-500" id="error1">
                     Please Provide a number
                 </p>
-                <button id="deposit-btn" class="text-left bg-indigo-600 w-max px-4 py-2 rounded-br-lg rounded-tl-lg text-white font-semibold" id="deposit-btn">Deposit</button>
+                <button id="deposit-btn" class="text-left bg-indigo-600 w-max px-4 py-2 rounded-br-lg rounded-tl-lg text-white font-semibold active:bg-indigo-400" id="deposit-btn">Deposit</button>
             </div>
         
             <div class=" shadow-md shadow-indigo-200 rounded-lg bg-indigo-100  py-8 px-16 flex flex-col space-y-8">
@@ -65,7 +66,7 @@
                 <p class=" hidden py-2 px-8 rounded-lg bg-green-200 text-green-500" id="error4">
                     You dont have that much money
                 </p>
-                <button id="withdraw-btn" class="text-left bg-indigo-600 w-max px-4 py-2 rounded-br-lg rounded-tl-lg text-white font-semibold" id="withdraw-btn">Withdraw</button>
+                <button id="withdraw-btn" class="text-left bg-indigo-600 w-max px-4 py-2 rounded-br-lg rounded-tl-lg text-white font-semibold active:bg-indigo-400" id="withdraw-btn">Withdraw</button>
             </div>
         </div>
     </section>
